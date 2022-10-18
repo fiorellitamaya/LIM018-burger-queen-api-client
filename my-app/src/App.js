@@ -1,12 +1,12 @@
 
 //import ReactDOM from 'react-dom/client';
 
-import login from './paginas/login.jsx';
-import mesas  from "./paginas/mesas.jsx"
-import ordenes from './paginas/ordenes.jsx'
-import pedidos from './paginas/pedidos.jsx'
-import ordenesCh from './paginas/ordenesCh.jsx'
-
+import  Login  from './paginas/login.jsx';
+import Mesas  from "./paginas/mesas.jsx"
+import Ordenes from './paginas/ordenes.jsx'
+import Pedidos from './paginas/pedidos.jsx'
+import OrdenesCh from './paginas/ordenesCh.jsx'
+import Nav from "./Nav"
 import './App.css';
 import { BrowserRouter, Routes, Route} from "react-router-dom"
 
@@ -14,12 +14,13 @@ import { BrowserRouter, Routes, Route} from "react-router-dom"
 function App() {
   return (
     <BrowserRouter>
+    <Nav/>
       <Routes>
-        <Route path="/" element={<login />} />
-        <Route path="/mesas1" element={<mesas />} />
-        <Route path="/ordenes1" element={<ordenes />} />
-        <Route path="/pedidos1" element={<pedidos />} />
-        <Route path="/ordenesCh1" element={<ordenesCh />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/mesas1" element={<Mesas />} />
+        <Route path="/ordenes1" element={<Ordenes />} />
+        <Route path="/pedidos1" element={<Pedidos />} />
+        <Route path="/ordenesCh1" element={<OrdenesCh />} />
       </Routes>
     </BrowserRouter>
   )
