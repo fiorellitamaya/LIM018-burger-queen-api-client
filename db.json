@@ -1,9 +1,49 @@
 {
+  "user": [
+    {
+      "id": "1",
+      "name": "Denis",
+      "lastName": "Romero",
+      "email": "deni@gmail.com",
+      "password": "12345",
+      "rol": "admin",
+      "admin": true
+    },
+    {
+      "id": "2",
+      "name": "fiorella",
+      "lastName": "Amaya",
+      "email": "fiorella@gmail.com",
+      "password": "147258",
+      "roles": "waiter",
+      "admin": false
+    },
+    {
+      "id": "3",
+      "name": "Valeria",
+      "lastName": "Alcala",
+      "email": "valeria@gmail.com",
+      "password": "369258",
+      "roles": "chef",
+      "admin": false
+    }
+  ],
+  
     "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
+      {
+        "id": 1,
+        "title": "json-server",
+        "author": "typicode"
+      }
     ],
     "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      }
     ],
-    "profile": { "name": "typicode" }
+    "profile": {
+      "name": "typicode"
+    }
   }

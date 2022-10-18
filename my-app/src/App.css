@@ -1,4 +1,19 @@
-.App {
+div{
+  font-size:1.5em;
+}
+a{
+  text-decoration: none;
+  color:rgb(243, 16, 16);
+  /*background-color: black;*/
+  padding:10px 20px;
+  font-size: 15px;
+}
+.activado{
+  color: gold;
+  background-color: red;
+}
+
+/*.App {
   text-align: center;
 }
 
@@ -36,3 +51,5 @@
     transform: rotate(360deg);
   }
 }
+*/
+
