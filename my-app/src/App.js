@@ -1,7 +1,7 @@
 
 //import ReactDOM from 'react-dom/client';
 
-import  Login  from './paginas/login.jsx';
+import Login  from './paginas/login.jsx';
 import Mesas  from "./paginas/mesas.jsx"
 import Ordenes from './paginas/ordenes.jsx'
 import Pedidos from './paginas/pedidos.jsx'
