@@ -1,5 +1,6 @@
 import React from "react";
-import fotoBQ from '../assets/imagenesBQ/fotoBQ.jpg'
+import fotoBQ from '../../assets/imagenesBQ/fotoBQ.jpg'
+import './login.css';
 
 
 export default function login() {
