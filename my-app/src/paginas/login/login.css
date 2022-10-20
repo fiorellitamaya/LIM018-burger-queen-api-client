@@ -1,47 +1,95 @@
 /*********** LOGIN **************/
+.containerLoginPrincipal {
+  position: relative;
+  width: 1198px;
+  height: 834px;
 
-.containerLoginPrincipal{
-    display: flex;
-    flex-direction: column-reverse;
-    font-size: 2em;
-    /*margin-top: 5px;*/
-    border-color: blue;
-    border-style:double;
-    /*justify-content: space-around;*/
-  }
-  .containerLoginForm{
-    flex-direction: row;
-    background-color: blueviolet;
-    width:100%;
-    height:100%;
-  }
-  .form-login{
-    width: 50%;
-    
-    float: left;
-    background-color: aqua;
+  border-color: blue;
+  border-style: double;
+  background-image: url("../../assets/imagenesBQ/fotoBQ.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container-form-loguito {
+  width: 45%;
+  height: 100%;
+  top: 43%;
+  background-color: rgba(170, 11, 11, 1);
+  /*align-items: center;*/
+  /*display: flex;
+  flex-direction: row;*/
+  /*align-content: center;*/
+
+}
+
+.loguitoBQ {
+  width: 351px;
+  height: 316px;
+  padding-top: 17%;
+  padding-left: 20%;
+  padding-right: 10%;
+  
+
+}
+
+/* Burger Queen */
+h1 {
+  position: absolute;
+  width: 320px;
+  height: 79px;
+  left: 11%;
+  top: 46%;
+  font-family: 'Fredoka';
+  font-style: normal;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.form-login {
+  font-size: 3.5em;
+  position: absolute;
+  background-color:rgba(170, 11, 11, 1);
+  width: 30%;
+  height: 35%;
+  top: 60%;
+  left: 7%;
+  align-content: flex-start;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+/* inputs */
+.form-input-login {
+  position: absolute;
+  width: 90%;
+  height: 13%;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  font-size: 24px;
+  
+}
+
+/* Ingresar */
+.btn-login {
+  position: absolute;
+  width: 183px;
+  height: 40px;
+  left: 25%;
+  top: 70%;
+  font-size: 18px;
+  color: #FFFFFF;
+  background: rgba(170, 11, 11, 1);
+  border: 1px solid #cfc7c7;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(249, 247, 247, 0.25);
+ 
   
   
-  }
-  .fotoBQ { 
-    width: 50%;
-    float: right;
-    /*
-    display: flex;
-    float: right;
-    flex-direction: column;
-    width:100%;
-    height:100%;
-    */
-  }
-  
-  /*
-  @media only screen and (max-width: 700px){
-  .containerLoginPrincipal{
-    font-size: 2em;
-  }
-  .fotoBQ {
-    width: 100px;
-    height:200px
-  }
-  }*/
+}
