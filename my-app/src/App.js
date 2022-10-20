@@ -1,14 +1,14 @@
 
 //import ReactDOM from 'react-dom/client';
 
-import Login  from './paginas/login.jsx';
-import Mesas  from "./paginas/mesas.jsx"
-import Ordenes from './paginas/ordenes.jsx'
-import Pedidos from './paginas/pedidos.jsx'
-import OrdenesCh from './paginas/ordenesCh.jsx'
+import Login  from './componentes/login.jsx';
+import Mesas  from "./componentes/mesas.jsx"
+import Ordenes from './componentes/ordenes.jsx'
+import Pedidos from './componentes/pedidos.jsx'
+import OrdenesCh from './componentes/ordenesCh.jsx'
 import Nav from "./Nav"
-import './App.css';
-import '../src/css/login.css';
+import '../src/style/App.css';
+import '../src/style/login.css';
 import { BrowserRouter, Routes, Route} from "react-router-dom"
 
 //Navigate
@@ -29,32 +29,3 @@ function App() {
 
 
 export default App;
-
-
-
-/*import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
-*/
