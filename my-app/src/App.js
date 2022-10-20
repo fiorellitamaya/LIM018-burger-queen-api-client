@@ -1,13 +1,14 @@
 
 //import ReactDOM from 'react-dom/client';
 
-import Login  from './paginas/login.jsx';
+import Login  from './paginas/login/login.jsx';
 import Mesas  from "./paginas/mesas.jsx"
 import Ordenes from './paginas/ordenes.jsx'
 import Pedidos from './paginas/pedidos.jsx'
 import OrdenesCh from './paginas/ordenesCh.jsx'
 import Nav from "./Nav"
 import './App.css';
+import '../src/paginas/login/login.css';
 import { BrowserRouter, Routes, Route} from "react-router-dom"
 
 //Navigate
