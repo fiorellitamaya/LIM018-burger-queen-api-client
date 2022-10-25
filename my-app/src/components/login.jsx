@@ -6,15 +6,11 @@ import '../style/login.css';
 
 export default function login() {
     return (
-        <div className="containerLoginPrincipal">
-
-
-          
+        <div className="containerLoginPrincipal">          
             <div className="container-form-loguito">
-            <img src={loguitoBQ} className="loguitoBQ" alt="loguitoBQ" />
-            <h1>Burger Queen</h1>
+                <img src={loguitoBQ} className="loguitoBQ" alt="loguitoBQ" />
+                <h1>Burger Queen</h1>
                 <div className="form-login">
-                
                     <br />
                     <input type="email" placeholder="Usuario" className="form-input-login" />
                     <br />
@@ -23,11 +19,6 @@ export default function login() {
                     <button type="submit" className="btn-login">Ingresar</button>
                 </div>
             </div>
-
-
-
-
-
         </div>
     )
 }
