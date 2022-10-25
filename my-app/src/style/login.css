@@ -37,12 +37,10 @@
 /* Burger Queen */
 h1 {
   position: absolute;
-  width: 320px;
   height: 79px;
   left: 11%;
   top: 46%;
-  font-family: 'Fredoka';
-  font-style: normal;
+  font-family: 'Fredoka One';
   font-size: 50px;
   display: flex;
   align-items: center;
@@ -83,7 +81,8 @@ h1 {
   height: 40px;
   left: 25%;
   top: 70%;
-  font-size: 18px;
+  font-family: 'Inter', sans-serif;;
+  font-size: 24px;
   color: #FFFFFF;
   background: rgba(170, 11, 11, 1);
   border: 1px solid #cfc7c7;

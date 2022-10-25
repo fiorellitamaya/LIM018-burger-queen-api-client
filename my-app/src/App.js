@@ -1,11 +1,11 @@
 
 //import ReactDOM from 'react-dom/client';
 
-import Login  from './componentes/login.jsx';
-import Mesas  from "./componentes/mesas.jsx"
-import Ordenes from './componentes/ordenes.jsx'
-import Pedidos from './componentes/pedidos.jsx'
-import OrdenesCh from './componentes/ordenesCh.jsx'
+import Login  from './components/login.jsx';
+import Mesas  from "./components/mesas.jsx"
+import Ordenes from './components/ordenes.jsx'
+import Pedidos from './components/pedidos.jsx'
+import OrdenesCh from './components/ordenesCh.jsx'
 import Nav from "./Nav"
 import '../src/style/App.css';
 import '../src/style/login.css';

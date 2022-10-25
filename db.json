@@ -6,16 +6,16 @@
       "lastName": "Romero",
       "email": "deni@gmail.com",
       "password": "12345",
-      "rol": "admin",
+      "role": "admin",
       "admin": true
     },
     {
       "id": "2",
-      "name": "fiorella",
+      "name": "Fiorella",
       "lastName": "Amaya",
       "email": "fiorella@gmail.com",
       "password": "147258",
-      "roles": "waiter",
+      "role": "waiter",
       "admin": false
     },
     {
@@ -24,7 +24,7 @@
       "lastName": "Alcala",
       "email": "valeria@gmail.com",
       "password": "369258",
-      "roles": "chef",
+      "role": "chef",
       "admin": false
     }
   ],

@@ -1,0 +1,31 @@
+.header {
+    background-color: #AA0B0B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#burgerLogo{
+    width: 20%;
+    /* margin: 5px 0px 5px 5px; */
+}
+
+.derechaHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.derechaHeader img{
+    width: 50px;   
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.derechaHeader p{
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    margin-right: 70px;
+}
