@@ -1,8 +1,8 @@
 import axios from 'axios'
 
 const url = 'http://localhost:3001';
-const path = '/user'
+const path = '/auth'
 
-export function signIn(username, password){
-axios.post(`${url}${path}`, {username, password})
+export function signIn(email, password){
+axios.post(`${url}${path}`, {email, password})
 }
